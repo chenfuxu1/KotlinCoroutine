@@ -1,4 +1,4 @@
-package com.htd.coroutinebase.view
+package com.htd.coroutinebase.ui
 
 import android.content.Context
 import android.graphics.Canvas
@@ -14,16 +14,11 @@ import com.htd.coroutinebase.R
  * DateTime: 2024-10-02 11:37
  *
  **/
-class CustomTextView : AppCompatTextView {
-    constructor(context: Context) : super(context)
-
-    constructor(context: Context, attrs: AttributeSet?) : super(context, attrs)
-
-    constructor(context: Context, attrs: AttributeSet?, defStyleAttr: Int) : super(
-        context,
-        attrs,
-        defStyleAttr
-    )
+class CustomTextView @JvmOverloads constructor(
+    context: Context,
+    attrs: AttributeSet? = null,
+    defStyleAttr: Int = 0
+) : AppCompatTextView(context, attrs, defStyleAttr) {
 
     override fun onFinishInflate() {
         super.onFinishInflate()

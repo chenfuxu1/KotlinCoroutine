@@ -4,7 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/F/GitProgram/KotlinCoroutine/CoroutineBase/src/main/res/drawable/text_view_shape.xml" value="0.1" />
+        <entry key="..\:/F/GitProgram/KotlinCoroutine/CoroutineBase/src/main/res/layout/activity_android_prj.xml" value="0.1452513966480447" />
+        <entry key="..\:/F/GitProgram/KotlinCoroutine/CoroutineBase/src/main/res/layout/activity_callback_to_suspend.xml" value="0.1" />
+        <entry key="..\:/F/GitProgram/KotlinCoroutine/CoroutineBase/src/main/res/layout/activity_de_magic.xml" value="0.12436932391523714" />
         <entry key="..\:/F/GitProgram/KotlinCoroutine/CoroutineBase/src/main/res/layout/activity_launch_coroutine.xml" value="0.1" />
+        <entry key="..\:/F/GitProgram/KotlinCoroutine/CoroutineBase/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/F/GitProgram/KotlinCoroutine/CoroutineBase/src/main/res/layout/activity_parallel.xml" value="0.1" />
+        <entry key="..\:/F/GitProgram/KotlinCoroutine/CoroutineBase/src/main/res/layout/activity_run_blocking.xml" value="0.1" />
+        <entry key="..\:/F/GitProgram/KotlinCoroutine/CoroutineBase/src/main/res/layout/activity_structured_concurrency.xml" value="0.16893115942028986" />
+        <entry key="..\:/F/GitProgram/KotlinCoroutine/CoroutineBase/src/main/res/layout/activity_suspend.xml" value="0.1" />
+        <entry key="..\:/F/GitProgram/KotlinCoroutine/CoroutineBase/src/main/res/layout/activity_with_context.xml" value="0.10090817356205853" />
+        <entry key="..\:/F/GitProgram/KotlinCoroutine/CoroutineBase/src/main/res/layout/custom_text_view.xml" value="0.1" />
       </map>
     </option>
   </component>

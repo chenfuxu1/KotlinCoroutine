@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".one_launch.LaunchCoroutineActivity">
 
-    <com.htd.coroutinebase.view.CustomTextView android:layout_width="wrap_content"
+    <com.htd.coroutinebase.ui.CustomTextView android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="启动协程"
         tools:ignore="MissingConstraints" />
