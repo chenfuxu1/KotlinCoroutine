@@ -101,6 +101,9 @@ class DeMagicActivity : AppCompatActivity() {
 
     private fun showContributors(contributors: List<Contributor>) {
         println(contributors.size)
+        contributors.let {
+
+        }
 
         contributors.subList(0, 9).map { contributor ->
             "${contributor.login} (${contributor.contributions})"

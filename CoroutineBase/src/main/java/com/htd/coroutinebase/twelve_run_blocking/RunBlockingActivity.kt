@@ -12,11 +12,11 @@ import kotlinx.coroutines.runBlocking
 /**
  * runBlocking 可以提供协程环境，包住整个 main 函数
  */
-fun main() = runBlocking<Unit> {
-    // 这样 main 函数就在协程的环境了
-    val githubApi: GithubApi = RetrofitService.getRetrofit().create(GithubApi::class.java)
-    githubApi.coroutineContributors("square", "retrofit")
-}
+// fun main() = runBlocking<Unit> {
+//     // 这样 main 函数就在协程的环境了
+//     val githubApi: GithubApi = RetrofitService.getRetrofit().create(GithubApi::class.java)
+//     githubApi.coroutineContributors("square", "retrofit")
+// }
 
 /**
  * RunBlocking
