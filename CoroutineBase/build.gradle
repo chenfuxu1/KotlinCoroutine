@@ -25,6 +25,7 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+        encoding 'UTF-8'
     }
     kotlinOptions {
         jvmTarget = '1.8'
@@ -61,5 +62,4 @@ dependencies {
     // RxJava
     implementation "io.reactivex.rxjava3:rxjava:3.1.9"
     implementation 'io.reactivex.rxjava3:rxandroid:3.0.2'
-
 }
