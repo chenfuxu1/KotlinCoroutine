@@ -15,13 +15,6 @@ import java.util.concurrent.CompletableFuture
  *
  * Desc:
  */
-/**
- * Project: CoroutineBase
- * Create By: Chen.F.X
- * DateTime: 2024-10-02 20:34
- *
- * Desc:
- */
 interface GithubApi {
     @GET("/repos/{owner}/{repo}/contributors")
     fun contributors(

@@ -1,5 +1,10 @@
 package com.htd.utils
 
+import android.annotation.SuppressLint
+import java.text.SimpleDateFormat
+import java.util.Calendar
+import java.util.Objects
+
 /**
  * Project: CoroutineBase
  * Create By: Chen.F.X
@@ -8,11 +13,22 @@ package com.htd.utils
  * Desc:
  */
 object Logit {
-    fun d(tag: String, msg: String) {
-        println("$tag $msg")
+    @SuppressLint("SimpleDateFormat")
+    val simpleDateFormat: SimpleDateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS")
+    private val calendar: Calendar = Calendar.getInstance()
+
+    fun d(msg: Any) {
+        val formatStr = simpleDateFormat.format(calendar.time)
+        println("$formatStr\t${msg}")
     }
 
-    fun d(tag: String, msg: String, throwable: Throwable) {
-        println("$tag $msg \n ${throwable.message}")
+    fun d(tag: String, msg: Any) {
+        val formatStr = simpleDateFormat.format(calendar.time)
+        println("$formatStr\t$tag\t$msg")
+    }
+
+    fun d(tag: String, msg: Any, throwable: Throwable) {
+        val formatStr = simpleDateFormat.format(calendar.time)
+        println("$formatStr\t$tag\t$msg \n ${throwable.message}")
     }
 }
